@@ -1,0 +1,32 @@
+{
+  "name": "alamgir/wp-demo-plugin",
+  "description": "A WordPress Demo Plugin Structure.",
+  "type": "wordpress-plugin",
+  "license": "GPL2",
+  "authors": [
+    {
+      "name": "Alamgir Hossain",
+      "email": "alamgircse.bd@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "wp-coding-standards/wpcs": "dev-master",
+    "dealerdirect/phpcodesniffer-composer-installer": "dev-master",
+    "tareq1988/wp-php-cs-fixer": "dev-master",
+    "phpcompatibility/phpcompatibility-wp": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alamgir\\DemoPlugin\\": "includes/"
+    }
+  },
+  "scripts": {
+    "phpcs": [
+      "phpcs -p -s"
+    ],
+    "phpcbf": [
+      "phpcbf -p"
+    ]
+  }
+}

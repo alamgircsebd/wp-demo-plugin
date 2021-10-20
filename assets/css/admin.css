@@ -1,0 +1,92 @@
+.wpdemo-settings-wrap {
+  background: #fff;
+  box-shadow: 0 0 0 1px #c8d7e1, 0 1px 2px #e9eff3;
+}
+.wpdemo-settings-wrap h2.nav-tab-wrapper {
+  padding: 0;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #c8d7e1;
+}
+.wpdemo-settings-wrap h2.nav-tab-wrapper a.nav-tab {
+  float: left;
+  display: block;
+  margin: 0;
+  border: none;
+  padding: 14px;
+  font-weight: 500;
+  font-size: 13px;
+  border-right: 1px solid #c8d7e1;
+  color: #444;
+  text-decoration: none;
+  margin-bottom: -1px;
+  background-color: #f1f1f1;
+  width: 130px;
+  border-bottom: 1px solid #c8d7e1;
+}
+.wpdemo-settings-wrap h2.nav-tab-wrapper a.nav-tab.nav-tab-active {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+}
+.wpdemo-settings-wrap h2.nav-tab-wrapper a.nav-tab.nav-tab-active:first-child {
+  border-left: 0px solid #fff;
+}
+.wpdemo-settings-wrap h2.nav-tab-wrapper a.nav-tab .dashicons {
+  margin-right: 10px;
+}
+.wpdemo-settings-wrap a.nav-tab#admin_settings_general-tab .dashicons {
+  color: #9b59b6;
+}
+.wpdemo-settings-wrap a.nav-tab#admin_settings_dashboard-tab .dashicons {
+  color: #6c75ff;
+}
+.wpdemo-settings-wrap a.nav-tab#admin_settings_profile-tab .dashicons {
+  color: #00aeff;
+}
+.wpdemo-settings-wrap a.nav-tab#admin_settings_frontend_posting-tab .dashicons {
+  color: #AD1457;
+}
+.wpdemo-settings-wrap a.nav-tab#admin_settings_my_account-tab .dashicons {
+  color: #64DD17;
+}
+.wpdemo-settings-wrap a.nav-tab#admin_settings_payment-tab .dashicons {
+  color: #e67e22;
+}
+.wpdemo-settings-wrap a.nav-tab#admin_settings_mails-tab .dashicons {
+  color: #115da7;
+}
+.wpdemo-settings-wrap a.nav-tab#admin_settings_sms-tab .dashicons {
+  color: #00aeff;
+}
+.wpdemo-settings-wrap a.nav-tab#admin_settings_payment_invoices-tab .dashicons {
+  color: #1abc9d;
+}
+.wpdemo-settings-wrap a.nav-tab#user_directory-tab .dashicons {
+  color: #e74c3c;
+}
+.wpdemo-settings-wrap .metabox-holder {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.wpdemo-settings-wrap .metabox-holder h2 {
+  border-bottom: 1px solid #c8d7e1;
+  padding-bottom: 15px;
+  margin-top: 14px;
+}
+.wpdemo-settings-wrap .metabox-holder p.submit {
+  margin-left: -10px;
+  border-top: 1px solid #f1f1f1;
+  padding-top: 20px;
+  text-align: right;
+  padding-right: 34px;
+}
+.wpdemo-settings-wrap .metabox-holder p.submit .button-primary {
+  font-size: 15px;
+  height: 45px;
+  line-height: 100%;
+  padding: 0px 20px;
+  font-weight: normal;
+}
+.wpdemo-settings-wrap .metabox-holder .form-table th {
+  padding-left: 0;
+}
